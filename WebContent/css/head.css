@@ -1,0 +1,81 @@
+body {
+    font: 12px Microsoft Yahei, tahoma, HELVETICA;
+    color: #333;
+    /* background-image: url(../image/); */
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: url(../image/3.jpg) no-repeat;
+   
+    overflow: auto;
+}
+
+#rightTop {
+    text-align: right;
+    margin-top: 10px;
+}
+
+#rightTop span {
+    color: red;
+}
+
+#menu {
+    padding: 10px 10px 0 0;
+    
+    overflow: auto;
+}
+
+#menu ul {
+    float: right;
+    list-style: none;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#menu ul li {
+    float: left;
+    display: block;
+    line-height: 30px;
+    margin: 0 10px
+}
+
+#menu ul li a {
+    font-weight: bold;
+    color: #666
+}
+
+#menu ul li a:hover {
+    color: red;
+}
+
+.menuDiv {
+    width: 1px;
+    height: 28px;
+    background: #999
+}
+
+#banner {
+    background: url(../image/2024248.jpg) center 5px no-repeat;
+    width: 100%;
+    margin: auto;
+    height: 218px;
+    border-bottom: 5px solid #EFEFEF;
+    clear: both
+}
+
+
+
+
+#container {
+    width: 900px;
+    margin: 0px auto
+}
+
+.pageBody {
+    width: 850px;
+    margin: 0 auto;
+}
